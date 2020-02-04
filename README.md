@@ -1,4 +1,4 @@
-# entendendo reqesçôes ao back-end
+# entendendo reqesções ao back-end
 
 
 Criei esse repositorio com a inteção de entender um pouco mais sobre como o fornt-end se comunica com o back-end, para isso criei uma aplicação simples que faz reguisições com os metodos get e post.
@@ -44,7 +44,7 @@ npm start
 
 2. A segunda coisa que é preciso entender é as bibliotecas ```axios```, ```cors```, ```express``` são essas bibliotecas que permitem usarmos os metodos http em um projeto node e react com mais facilidade 
 
-- A bibliote [axios](https://github.com/axios/axios) usamos ela no front-end para faser requisisoes a alguma api:
+- A bibliote [axios](https://github.com/axios/axios) usamos ela no front-end para faser requisisoes a alguma api.
 
 ```
 import axios from 'axios';
@@ -54,7 +54,7 @@ const usandoGet = async () =>{
     alert(res.data);
   }
 ```
-- A biblioteca [express](https://github.com/expressjs/express) é usada no back-end pra iformar o que ele deve faser quando receber alguma requisição http:
+- A biblioteca [express](https://github.com/expressjs/express) é usada no back-end pra iformar o que ele deve faser quando receber alguma requisição http.
 
 ```
 const express = require('express');
@@ -70,4 +70,18 @@ app.post('/',(req,res) => {
 
 app.listen(3001);
 ```
+- E o [cors](https://github.com/expressjs/cors) é usado pra que a sua api seja usada por algum endereço expecifico ou não.
 
+
+```
+const cors = require('cors');
+
+app.use(cors());
+
+```
+
+### links para as bibliotecas:
+
+- [axios](https://github.com/axios/axios)
+- [express](https://github.com/expressjs/express)
+- [cors](https://github.com/expressjs/cors)
