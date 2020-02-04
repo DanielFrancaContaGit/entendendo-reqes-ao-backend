@@ -1,4 +1,4 @@
-# entendendo reqesções ao back-end
+# entendendo requisições ao back-end
 
 
 Criei esse repositorio com a inteção de entender um pouco mais sobre como o fornt-end se comunica com o back-end, para isso criei uma aplicação simples que faz reguisições com os metodos get e post.
