@@ -1,7 +1,10 @@
 # entendendo requisições ao back-end
 
-
 Criei esse repositorio com a inteção de entender um pouco mais sobre como o fornt-end se comunica com o back-end, para isso criei uma aplicação simples que faz reguisições com os metodos get e post.
+
+<p align=center>
+  <img width="500" src="https://pm1.narvii.com/6703/5f5f3de2d890feb0e0d886ccc35c849e0bc54a3e_hq.jpg" alt="docker-logo">
+</p>
 
  #### Para instalar as dependencias do projeto entre na pasta client e no terminal use o comando:
 
